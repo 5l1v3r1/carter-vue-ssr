@@ -58,7 +58,7 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 - **James Humphries** - *All of it (so far)* - [Yantrio](https://github.com/Yantrio)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/yantrio/carter-vue-ssr/contributors) who participated in this project.
 
 ## License
 
