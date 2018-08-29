@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 Clone this repo
 
 ```bash
-git clone <inserturl>
+git clone git@github.com:Yantrio/carter-vue-ssr.git
 ```
 
 install the frontend dependencies and run webpack in watch mode
