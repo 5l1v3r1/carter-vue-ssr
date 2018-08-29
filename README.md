@@ -1,6 +1,6 @@
 # Carter + Vue.js - Server-side Rendering Starter Project
 
-This project uses Microsoft's [Javascript Services](https://github.com/aspnet/JavaScriptServices) and Vue's [Server-Side Renderer](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer) to give us a (quite opinionated) project setup for handling SSR in with carter.
+This project uses Microsoft's [Javascript Services](https://github.com/aspnet/JavaScriptServices) and Vue's [Server-Side Renderer](https://github.com/vuejs/vue/tree/dev/packages/vue-server-renderer) to give us a (quite opinionated) project setup for handling SSR in with Carter.
 
 ## Getting Started
 
