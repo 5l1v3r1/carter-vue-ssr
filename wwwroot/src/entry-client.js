@@ -16,10 +16,10 @@ router.onReady(() => {
 
     // we only care about non-previously-rendered components,
     // so we compare them until the two matched lists differ
-    let diffed = false
+    let diffed = false;
     const activated = matched.filter((c, i) => {
       return diffed || (diffed = (prevMatched[i] !== c))
-    })
+    });
 
     if (!activated.length) {
       return next()
@@ -34,7 +34,7 @@ router.onReady(() => {
     })).then(() => {
       // stop loading indicator
       next()
-    }).catch(next)
+    }).catch(next);
   })
 
   app.$mount('#app');

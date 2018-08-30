@@ -1,5 +1,5 @@
-const serverBundle = require('./dist/vue-ssr-bundle.json');
-const clientManifest = require('./dist/vue-ssr-client-manifest.json');
+import serverBundle from './dist/vue-ssr-bundle.json';
+import clientManifest from './dist/vue-ssr-client-manifest.json';
 
 function createRenderer(bundle, template) {
   return require('vue-server-renderer').createBundleRenderer(serverBundle, {
@@ -8,7 +8,7 @@ function createRenderer(bundle, template) {
   });
 }
 
-module.exports = function RenderEngine() {
+export default function RenderEngine() {
   function Render(context, callback) {
     createRenderer().renderToString(context, (err, html) => {
       if (err && err instanceof Error) {
